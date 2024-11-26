@@ -574,10 +574,12 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.developments-img-title {
-  color: white;
-  background-color: rgba(47, 48, 58, 0.8);
-}
-.developments-item {
-  margin-right: 20px;
+.developments .developments-img-title {
+  padding: 8px 16px;
+
+  bottom: 0;
+
+  font-size: 24px;
+  background-color: var(--grey_black-color);
+  color: #fff;
 }
