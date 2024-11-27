@@ -574,12 +574,23 @@ body {
   font-weight: 700;
   text-transform: uppercase;
 }
-.developments .developments-img-title {
+.developments-list .developments-img-title {
+  position: relative;
+  bottom: 70px;
+  right: 0;
+  margin: 0;
   padding: 8px 16px;
+  border-bottom-left-radius: 4px;
+  width: 370px;
+  height: 70px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  bottom: 0;
-
-  font-size: 24px;
-  background-color: var(--grey_black-color);
-  color: #fff;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--brand-color);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700px;
 }
